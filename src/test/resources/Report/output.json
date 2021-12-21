@@ -1,0 +1,222 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "verifying adactionhotelapp login with valid credentials",
+        "description": "",
+        "id": "verifying-adactinhotelapp-detail;verifying-adactionhotelapp-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 44985381800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the adactinhotelapp page",
+            "match": {
+              "location": "LoginPage.user_is_on_the_adactinhotelapp_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3398631800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter\"vigneshkumar1998\" and\"642506\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vigneshkumar1998\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"642506\"",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginPage.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4564505000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click login button",
+            "match": {
+              "location": "LoginPage.user_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4099612200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is select hotel page \"London\",\"Hotel Creek\",\"Deluxe\",\"1-One\",\"17/12/2021\",\"18/12/2021\",\"1-One\",\"1-One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"1-One\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"17/12/2021\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"18/12/2021\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"1-One\"",
+                  "offset": 92
+                },
+                {
+                  "val": "\"1-One\"",
+                  "offset": 100
+                }
+              ],
+              "location": "LoginPage.user_is_select_hotel_page(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1503964899,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should click search button",
+            "match": {
+              "location": "LoginPage.user_should_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129265000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should  Select hotel",
+            "match": {
+              "location": "LoginPage.user_should_Select_hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1467546699,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click Continue",
+            "match": {
+              "location": "LoginPage.user_should_click_Continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3309641700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on book a hotel page\"vignesh\",\"kumar\",\"2210/A\",\"7543211345678990\",\"Master Card\",\"December\",\"2022\",\"902\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vignesh\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"kumar\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"2210/A\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"7543211345678990\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"902\"",
+                  "offset": 106
+                }
+              ],
+              "location": "LoginPage.user_is_on_book_a_hotel_page(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1212771900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should click  book now",
+            "match": {
+              "location": "LoginPage.user_should_click_book_now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#book_now\"}\n  (Session info: chrome\u003d96.0.4664.110)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-KTOG02E\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_311\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\vignesh\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62666}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b7713dc9da3e96bc866c7727e0bc6e31\n*** Element info: {Using\u003did, value\u003dbook_now}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.mainobject.LoginPage.user_should_verify_valid_msg(LoginPage.java:96)\r\n\tat ✽.user should verify valid msg(src/test/resources/features/test2.feature:13)\r\n",
+              "duration": 10269872499,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "user should verify valid msg",
+            "match": {
+              "location": "LoginPage.user_should_verify_valid_msg()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verifying Adactinhotelapp detail",
+    "description": "",
+    "id": "verifying-adactinhotelapp-detail",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/test2.feature",
+    "tags": []
+  }
+]
